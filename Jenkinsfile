@@ -22,7 +22,7 @@ pipeline{
         }
         stage('Deployment'){
             steps{
-                sh 'cp /home/rutvik/.jenkins/workspace/pipeline/target/petclinic.war /home/rutvik/30-days-of-devops/Day-4/jenkins_apache/apache-tomcat-9.0.65/webapps'
+                sh 'cp /home/rutvik/.jenkins/workspace/pipeline/target/petclinic.war /home/rutvik/Devops-Shack/30-Days-Of-Devops/Day-4/install_apache/apache-tomcat-9.0.65/webapps'
             }
         }
     }
