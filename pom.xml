@@ -85,12 +85,12 @@
                   <repository>
                            <id>maven-releases</id>
                            <!-- CHANGE HERE by your team nexus server -->
-                           <url>http://192.168.246.222:8083/repository/maven-releases/</url>
+                           <url>http://192.168.77.222:8083/repository/maven-releases/</url>
                   </repository>
                   <snapshotRepository>
                            <id>maven-snapshots</id>
                            <!-- CHANGE HERE by your team nexus server -->
-                           <url>http://192.168.246.222:8083/repository/maven-snapshots</url>
+                           <url>http://192.168.77.222:8083/repository/maven-snapshots</url>
                   </snapshotRepository>
          </distributionManagement>
          
@@ -566,7 +566,7 @@
          <repository>
                   <id>maven-release</id>
                   <name>maven-release</name>
-                  <url>http://192.168.246.222:8083/repository/maven-releases</url>
+                  <url>http://192.168.77.222:8083/repository/maven-releases</url>
          </repository>
     </repositories>
 </project>
